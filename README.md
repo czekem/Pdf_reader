@@ -36,20 +36,20 @@ Examples
 
 Here are some examples of how to use Pdf_reader:
 
-# Read all pages of a PDF file and print the concordance of the word "the"
+- Read all pages of a PDF file and print the concordance of the word "the"
 python pdf_reader.py --concordance the
 
-# Read page 10 of a PDF file and print the similarity of the word "love"
+- Read page 10 of a PDF file and print the similarity of the word "love"
 python pdf_reader.py --page 10 --similarity love
 
-# Read all pages of a PDF file and print the common contexts of the words "love" and "hate"
+- Read all pages of a PDF file and print the common contexts of the words "love" and "hate"
 python pdf_reader.py --common_context love hate
 
-# Read all pages of a PDF file and print the number of occurrences of the word "freedom"
+- Read all pages of a PDF file and print the number of occurrences of the word "freedom"
 python pdf_reader.py --count_word freedom
 
-# Read all pages of a PDF file and print the number of unique words
+- Read all pages of a PDF file and print the number of unique words
 python pdf_reader.py --number_of_unique_words
 
-# Read all pages of a PDF file and print the total number of words
+- Read all pages of a PDF file and print the total number of words
 python pdf_reader.py --number_of_common_words_in_total
